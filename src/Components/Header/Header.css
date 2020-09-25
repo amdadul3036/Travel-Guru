@@ -1,0 +1,16 @@
+.navbar-brand{
+    filter: brightness(100%);
+    width: 120px;
+    height: 50px;
+}
+.nav-item{
+    padding: 5px 10px;
+}
+.nav-link{
+    color: white !important;
+}
+.btn-warning{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}

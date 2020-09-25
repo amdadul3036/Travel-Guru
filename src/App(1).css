@@ -1,0 +1,46 @@
+:root {
+	--primary: #f9a51a;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Bebas Neue", cursive;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	border: none;
+	padding: 12px 29px;
+}
+
+.tg-primary {
+	color: #000000;
+	background: var(--primary);
+}
+.tg-primary:focus {
+	background: #ffb234;
+	box-shadow: 0 0 0 0.2rem rgb(255 178 52 / 46%);
+}
+.tg-primary:hover,
+.tg-primary:active {
+	background: #ffb234;
+	box-shadow: 0;
+}
